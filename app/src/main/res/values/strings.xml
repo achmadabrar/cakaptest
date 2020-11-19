@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CakapTestApp</string>
+    <string name="name_with_data">Name      : %s</string>
+    <string name="email_with_data">Email     : %s</string>
+    <string name="phone_with_data">Phone     : %s</string>
+    <string name="crated_at_with_data">CreatedAt : %s</string>
+    <string name="contact">Contact</string>
+    <string name="sort">Sort</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="name_title">Name :</string>
+    <string name="email_title">Email :</string>
+    <string name="phone_title">Phone :</string>
+    <string name="crated_at_title">CreatedAt : </string>
+    <string name="submit">Submit</string>
+    <string name="sort_by">Sort by</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="created_at">Created At</string>
+    <string name="asc">Asc</string>
+    <string name="desc">Desc</string>
+</resources>
