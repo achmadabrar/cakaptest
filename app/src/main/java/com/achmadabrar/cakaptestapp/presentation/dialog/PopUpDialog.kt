@@ -25,15 +25,11 @@ class PopUpDialog(
         setContentView(R.layout.layout_popup_dialog)
 
         cb_name.setOnCheckedChangeListener { compoundButton, isChecked ->
-            if (isChecked) {
-                SELECTED_BUTTON = NAME
-            }
+            if (isChecked) SELECTED_BUTTON = NAME
         }
 
         cb_email.setOnCheckedChangeListener { compoundButton, isChecked ->
-            if (isChecked) {
-                SELECTED_BUTTON = EMAIL
-            }
+            if (isChecked) SELECTED_BUTTON = EMAIL
         }
 
         cb_phone.setOnCheckedChangeListener { compoundButton, isChecked ->
@@ -43,21 +39,15 @@ class PopUpDialog(
         }
 
         cb_created_at.setOnCheckedChangeListener { compoundButton, isChecked ->
-            if (isChecked) {
-                SELECTED_BUTTON = CREATED_AT
-            }
+            if (isChecked) SELECTED_BUTTON = CREATED_AT else  SELECTED_BUTTON = NAME //default
         }
 
         cb_asc.setOnCheckedChangeListener { compoundButton, isChecked ->
-            if (isChecked) {
-                IS_ASC = true
-            }
+            if (isChecked) IS_ASC = true
         }
 
         cb_desc.setOnCheckedChangeListener { compoundButton, isChecked ->
-            if (isChecked) {
-                IS_ASC = false
-            }
+            if (isChecked) IS_ASC = false else IS_ASC = true //deafult
         }
 
 
